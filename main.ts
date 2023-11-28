@@ -1,4 +1,3 @@
-let MySprite: Sprite = null
 scene.setBackgroundColor(3)
 let mySprite2 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
@@ -18,4 +17,4 @@ let mySprite2 = sprites.create(img`
     . . . . . . . f f f . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
-controller.moveSprite(MySprite, 90, 90)
+controller.moveSprite(mySprite2, 90, 90)
